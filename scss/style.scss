@@ -1,8 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import "base";
+
+@import "myworks";
+
+@import "clients";
+
+@import "footer";
 
 @mixin center {
     display: flex;
@@ -10,27 +12,3 @@
     align-items: center;
 }
 
-@mixin wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-body {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul,
-li {
-    list-style-type: none;
-}
-
-img {
-    width: 100%;
-}

@@ -1,0 +1,21 @@
+.container_title {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 90px 0px;
+}
+
+.container_list {
+    display: flex;
+    flex-wrap: wrap;
+      
+    &__wrapper{
+        padding: 15px;
+                       
+        .inner {
+            background-color: #f4f4f4;
+            height: 270px;
+            width: 360px;
+        }
+    }
+}
+

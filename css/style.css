@@ -1,0 +1,100 @@
+/* line 1, scss/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 7, scss/_base.scss */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+/* line 13, scss/_base.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #5a5a5a; }
+
+/* line 19, scss/_base.scss */
+h2 {
+  font-weight: 300;
+  font-size: 50px;
+  color: #3677fd; }
+
+/* line 25, scss/_base.scss */
+a {
+  text-decoration: none;
+  color: inherit; }
+
+/* line 30, scss/_base.scss */
+ul,
+li {
+  list-style-type: none; }
+
+/* line 35, scss/_base.scss */
+img {
+  width: 100%; }
+
+/* line 1, scss/_myworks.scss */
+.container_title {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 90px 0px; }
+
+/* line 7, scss/_myworks.scss */
+.container_list {
+  display: flex;
+  flex-wrap: wrap; }
+  /* line 11, scss/_myworks.scss */
+  .container_list__wrapper {
+    padding: 15px; }
+    /* line 14, scss/_myworks.scss */
+    .container_list__wrapper .inner {
+      background-color: #f4f4f4;
+      height: 270px;
+      width: 360px; }
+
+/* line 1, scss/_clients.scss */
+.clients {
+  background-color: #f1f8ff; }
+
+/* line 5, scss/_clients.scss */
+.container_list__icon {
+  display: flex;
+  flex-wrap: nowrap; }
+  /* line 10, scss/_clients.scss */
+  .container_list__icon .icon > svg {
+    color: #f4f4f4;
+    align-items: center;
+    justify-content: center; }
+
+/* line 1, scss/_footer.scss */
+.footer {
+  background-image: url(../images/background-footer.jpg);
+  background-repeat: no-repeat; }
+  /* line 5, scss/_footer.scss */
+  .footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    /* line 11, scss/_footer.scss */
+    .footer__inner .footer__description {
+      font-weight: 300;
+      font-size: 50px;
+      color: #ffffff;
+      padding: 70px 0px; }
+    /* line 19, scss/_footer.scss */
+    .footer__inner .footer__strong {
+      font-weight: 900;
+      font-size: 50px;
+      color: #ffffff; }
+    /* line 25, scss/_footer.scss */
+    .footer__inner .button {
+      height: 50px;
+      width: 200px;
+      border: none;
+      color: #3c93ff;
+      background-color: #ffffff;
+      text-transform: uppercase;
+      cursor: pointer; }
