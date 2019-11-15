@@ -95,10 +95,31 @@
                 <p class="footer__description">Need a graphic designer? <span class="footer__strong">Ready to
                         work!</span>
                 </p>
-                <button class="button">hire me</button>
+                <button class="button" id="btnHireMe2">hire me</button>
             </div>
         </div>
     </footer>
+
+    <div class="modal-background" id="modal-background">
+        <div class="modal__hire-me">
+            <h2 class="hire-me__title">Hire Me</h2>
+            <svg id="hireMeClose">
+                <use xlink:href="./spryte.svg#close"></use>
+            </svg>
+            <div class="hire-me__form-wrapper">
+                <form action="" class="hire-me__form">
+                    <input class="form-input" type="text" placeholder="Your Name" required>
+                    <input class="form-input" type="email" placeholder="Your E-Mail" required>
+                    <textarea name="" id="" cols="30" rows="10" class="form-textarea"
+                        placeholder="Your Message"></textarea>
+                    <div class="btn-wrapper">
+                        <button class="btn-base" id="btn-submit" type="submit">SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

@@ -1,100 +1,175 @@
-/* line 1, scss/_base.scss */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
-/* line 7, scss/_base.scss */
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px; }
+  padding: 0 15px;
+}
 
-/* line 13, scss/_base.scss */
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
-  color: #5a5a5a; }
+  color: #5a5a5a;
+}
 
-/* line 19, scss/_base.scss */
 h2 {
   font-weight: 300;
   font-size: 50px;
-  color: #3677fd; }
+  color: #3677fd;
+}
 
-/* line 25, scss/_base.scss */
 a {
   text-decoration: none;
-  color: inherit; }
+  color: inherit;
+}
 
-/* line 30, scss/_base.scss */
 ul,
 li {
-  list-style-type: none; }
+  list-style-type: none;
+}
 
-/* line 35, scss/_base.scss */
 img {
-  width: 100%; }
+  width: 100%;
+}
 
-/* line 1, scss/_myworks.scss */
 .container_title {
   text-align: center;
   text-transform: capitalize;
-  padding: 90px 0px; }
+  padding: 90px 0px;
+}
 
-/* line 7, scss/_myworks.scss */
 .container_list {
   display: flex;
-  flex-wrap: wrap; }
-  /* line 11, scss/_myworks.scss */
-  .container_list__wrapper {
-    padding: 15px; }
-    /* line 14, scss/_myworks.scss */
-    .container_list__wrapper .inner {
-      background-color: #f4f4f4;
-      height: 270px;
-      width: 360px; }
+  flex-wrap: wrap;
+}
+.container_list__wrapper {
+  padding: 15px;
+}
+.container_list__wrapper .inner {
+  background-color: #f4f4f4;
+  height: 270px;
+  width: 360px;
+}
 
-/* line 1, scss/_clients.scss */
 .clients {
-  background-color: #f1f8ff; }
+  background-color: #f1f8ff;
+}
 
-/* line 5, scss/_clients.scss */
 .container_list__icon {
   display: flex;
-  flex-wrap: nowrap; }
-  /* line 10, scss/_clients.scss */
-  .container_list__icon .icon > svg {
-    color: #f4f4f4;
-    align-items: center;
-    justify-content: center; }
+  flex-wrap: nowrap;
+}
+.container_list__icon .icon > svg {
+  color: #f4f4f4;
+  align-items: center;
+  justify-content: center;
+}
 
-/* line 1, scss/_footer.scss */
 .footer {
   background-image: url(../images/background-footer.jpg);
-  background-repeat: no-repeat; }
-  /* line 5, scss/_footer.scss */
-  .footer__inner {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    /* line 11, scss/_footer.scss */
-    .footer__inner .footer__description {
-      font-weight: 300;
-      font-size: 50px;
-      color: #ffffff;
-      padding: 70px 0px; }
-    /* line 19, scss/_footer.scss */
-    .footer__inner .footer__strong {
-      font-weight: 900;
-      font-size: 50px;
-      color: #ffffff; }
-    /* line 25, scss/_footer.scss */
-    .footer__inner .button {
-      height: 50px;
-      width: 200px;
-      border: none;
-      color: #3c93ff;
-      background-color: #ffffff;
-      text-transform: uppercase;
-      cursor: pointer; }
+  background-repeat: no-repeat;
+}
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__inner .footer__description {
+  font-weight: 300;
+  font-size: 50px;
+  color: #ffffff;
+  padding: 70px 0px;
+}
+.footer__inner .footer__strong {
+  font-weight: 900;
+  font-size: 50px;
+  color: #ffffff;
+}
+.footer__inner .button {
+  height: 50px;
+  width: 200px;
+  border: none;
+  color: #3c93ff;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.modal-background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.modal__hire-me {
+  width: 800px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+.hire-me__form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hire-me__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+
+.form-input {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #b7c0c9;
+  border-radius: 10px;
+  padding: 13px 20px;
+  margin-bottom: 15px;
+}
+
+.form-textarea {
+  border: 1px solid #b7c0c9;
+  border-radius: 10px;
+  resize: none;
+  width: 100%;
+  height: 180px;
+  padding: 17px;
+}
+
+#hireMeClose {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  fill: #3676fd;
+}
+
+.hire-me__title {
+  margin: 60px 0;
+  font-weight: 500;
+}
+
+#btn-submit {
+  background-color: #3676fd;
+  margin: 40px 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
