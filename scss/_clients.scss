@@ -1,0 +1,16 @@
+.clients {
+    background-color: #f1f8ff;
+}
+
+.container_list__icon {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+    .icon > svg {
+        color: #f4f4f4;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

@@ -1,5 +1,11 @@
 @import "base";
 
+@import "myworks";
+
+@import "clients";
+
+@import "footer";
+
 @mixin center {
     display: flex;
     justify-content: center;

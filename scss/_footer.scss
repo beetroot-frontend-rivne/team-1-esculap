@@ -1,0 +1,37 @@
+.footer {
+    background-image: url(../images/background-footer.jpg);
+    background-repeat: no-repeat;
+        
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            
+        
+        .footer__description {
+    
+            font-weight: 300;
+            font-size: 50px;
+            color: #ffffff;
+            padding: 70px 0px;
+        }
+        
+        .footer__strong {
+            font-weight: 900;
+            font-size: 50px;
+            color: #ffffff;
+        }
+
+        .button {
+            height: 50px;
+            width: 200px;
+            border: none;
+            color: #3c93ff;
+            background-color: #ffffff;
+            text-transform: uppercase;
+            cursor: pointer;
+
+        }
+    }
+}
+
