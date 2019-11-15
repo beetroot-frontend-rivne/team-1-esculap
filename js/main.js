@@ -1,12 +1,12 @@
 
-let btnHireMe = document.getElementById('btnHireMe');
+// let btnHireMe = document.getElementById('btnHireMe');
 let hireMeBlock = document.getElementById('modal-background');
 let btnHireMe2 = document.getElementById('btnHireMe2');
 let closeHireMe = document.getElementById('hireMeClose');
 
-btnHireMe.onclick = function () {
-    hireMeBlock.style.display = 'flex';
-}
+// btnHireMe.onclick = function () {
+//     hireMeBlock.style.display = 'flex';
+// }
 
 btnHireMe2.onclick = function () {
     hireMeBlock.style.display = 'flex';

@@ -1,3 +1,10 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 @import "base";
 
 @import "myworks";
@@ -8,9 +15,5 @@
 
 @import "hireMe";
 
-@mixin center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
