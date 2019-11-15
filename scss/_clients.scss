@@ -8,9 +8,13 @@
     
     
     .icon > svg {
-        color: #f4f4f4;
         align-items: center;
         justify-content: center;
+        opacity: 0.5;
+
+        .icon:hover > svg{
+            opacity: 1;
+        }
     }
 }
 
