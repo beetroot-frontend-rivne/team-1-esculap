@@ -53,6 +53,11 @@ img {
   background-color: #f4f4f4;
   height: 270px;
   width: 360px;
+  opacity: 0.7;
+}
+.container_list__wrapper .inner:hover {
+  opacity: 1;
+  box-shadow: #3c93ff;
 }
 
 .clients {
@@ -61,12 +66,16 @@ img {
 
 .container_list__icon {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .container_list__icon .icon > svg {
-  color: #f4f4f4;
   align-items: center;
   justify-content: center;
+  opacity: 0.5;
+  width: 270px;
+}
+.container_list__icon .icon:hover > svg {
+  opacity: 1;
 }
 
 .footer {
@@ -97,6 +106,7 @@ img {
   background-color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
+  border-radius: 50px;
 }
 
 .modal-background {

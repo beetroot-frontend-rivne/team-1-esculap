@@ -4,17 +4,18 @@
 
 .container_list__icon {
     display: flex;
-    flex-wrap: nowrap;
-    
+    flex-wrap: wrap;
+        
     
     .icon > svg {
         align-items: center;
         justify-content: center;
-        opacity: 0.5;
+        opacity: 0.5;    
+        width: 270px;  
+    }
 
-        .icon:hover > svg{
-            opacity: 1;
-        }
+    .icon:hover > svg{
+        opacity: 1;
     }
 }
 
