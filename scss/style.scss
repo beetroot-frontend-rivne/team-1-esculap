@@ -4,6 +4,19 @@
     align-items: center;
 }
 
+.btn-base {
+    line-height: 30px;
+    background-color: #fff;
+    color: #3695ff;
+    padding: 10px;
+    min-width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 
 @import "base";
 
