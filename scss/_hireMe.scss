@@ -69,3 +69,15 @@
     color: #fff;
     cursor: pointer;
 }
+
+@media screen and (max-width: 992px) {
+    .modal__hire-me {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal__hire-me {
+        width: 600px;
+    }
+}
