@@ -11,28 +11,70 @@
 </head>
 
 <body>
+
+    <!--Header-->
+
     <header class="header">
+
         <div class="container">
-            <ul>
-                <li>
-                    <a href="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                    </a>
-                </li>
-            </ul>
+
+            <!--Menu-->
+            <nav class="header__nav">
+                <input id="burger" class="checkbox" type="checkbox" />
+                <label for="burger" class="burger">
+                    <svg>
+                        <use xlink:href="./images/burger.svg#burger"></use>
+                    </svg>
+                </label>
+
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#aboutMe">About Me</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#services">Services</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#myWorks">My works</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#clients">Clients</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__wrapper">
+
+                <div class="header__image">
+                    <img class="photo" src="./images/photo-01.jpg" alt="photo">
+                </div>
+
+
+                <h1 class="header__title">
+                    Free portfolio PSD template for graphic designers
+                </h1>
+                <p class="header__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam,
+                    quis nostrud exercitation ullamco
+                </p>
+
+                <button class="button" id="">hire me</button>
+            </div>
         </div>
     </header>
+
+
     <main class="main">
         <section class="aboutMe" id="aboutMe">
             <div class="container">
-
+                <h2 class="container_title">about me</h2>
+                <p class="container_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis omnis
+                    numquam sunt facilis
+                    assumenda, magni earum libero eum voluptatibus, et amet non, quae recusandae nostrum ratione nisi
+                    natus neque repellat.Deleniti laborum labore eveniet, excepturi similique adipisci enim nihil velit,
+                    est at praesentium eius delectus illo! Totam iure accusamus quibusdam. Laboriosam id incidunt nisi
+                    animi officia nostrum sint repellat nihil.</p>
             </div>
         </section>
         <section class="expertIn" id="services">
@@ -40,6 +82,9 @@
 
             </div>
         </section>
+
+        <!--Section Latest Works-->
+
         <section class="latestWorks" id="myWorks">
             <div class="container">
                 <h2 class="container_title">latest works</h2>
@@ -77,7 +122,10 @@
                 </ul>
             </div>
         </section>
-        <section class="clients">
+
+        <!--Section Clients-->
+
+        <section class="clients" id="clients">
             <div class="container">
                 <h2 class="container_title">clients</h2>
                 <ul class="container_list__icon">
@@ -102,6 +150,9 @@
             </div>
         </section>
     </main>
+
+    <!--Footer-->
+
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
@@ -112,6 +163,8 @@
             </div>
         </div>
     </footer>
+
+    <!--Modal form-->
 
     <div class="modal-background" id="modal-background">
         <div class="modal__hire-me">
